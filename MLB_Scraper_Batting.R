@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 # install.packages("devtools")
 # install_github("hadley/rvest")
 c('rvest','dplyr') -> packages #installs packages
 lapply(packages, library, character.only = T)
 
+=======
+c('rvest','dplyr') -> packages #installs packages
+lapply(packages, library, character.only = T) #installs packages
+>>>>>>> aa0c6e3ecd021c6b7c008d11c01cde54c44e9935
 
 url <- "http://www.baseball-reference.com/teams/"
 teams=c("ARI","ATL","BAL","BOS","CHC","CHW","CIN","CLE","COL","DET","HOU","KCR","LAD","MIA","MIL","MIN","NYM","NYY","OAK","PHI","PIT","SDP","SFG","SEA","STL","TEX","TOR","TBR")

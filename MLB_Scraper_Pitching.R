@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # install.packages("devtools")
 # install_github("hadley/rvest")
+=======
+>>>>>>> aa0c6e3ecd021c6b7c008d11c01cde54c44e9935
 c('rvest','dplyr') -> packages #installs packages
 lapply(packages, library, character.only = T)
 
