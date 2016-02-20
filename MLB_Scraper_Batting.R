@@ -1,5 +1,6 @@
-c('rvest','dplyr','pipeR') -> packages #installs packages
+c('rvest','dplyr') -> packages #installs packages
 lapply(packages, library, character.only = T) #installs packages
+
 url <- "http://www.baseball-reference.com/teams/"
 teams=c("ARI","ATL","BAL","BOS","CHC","CHW","CIN","CLE","COL","DET","HOU","KCR","LAD","MIA","MIL","MIN","NYM","NYY","OAK","PHI","PIT","SDP","SFG","SEA","STL","TEX","TOR","TBR")
 stats_table <- '#team_batting'
