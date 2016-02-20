@@ -1,6 +1,6 @@
 # install.packages("devtools")
 # install_github("hadley/rvest")
-c('rvest','dplyr','pipeR') -> packages #installs packages
+c('rvest','dplyr') -> packages #installs packages
 lapply(packages, library, character.only = T)
 
 url <- "http://www.baseball-reference.com/minors/"
